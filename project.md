@@ -38,7 +38,7 @@ The following scripts are provided already in full:
 - `plot-forecast.py`
 - `interp-forecast.py`
 
-You may need to learn how to process certain kinds of data.  For instance, how do you retrieve `stdin` standard input data from inside of a script?  You can look in `plot-forecast.py` to get an idea of how that should work.  You can retrieve data from a remote source using `requests` (several other libraries support this as well, but we think `requests` is the easiest one to use).
+You may need to learn how to process certain kinds of data.  For instance, how do you retrieve `stdin` standard input data from inside of a script?  You can look in `plot-forecast.py` to get an idea of how that should work.  You can retrieve data from a remote source using [`requests`](https://2.python-requests.org/en/master/) (several other libraries support this as well, but we think `requests` is the easiest one to use).  The `get` function returns an object with a `text` attribute containing the retrieved data in HTML format.
 
 ### `grab-stations.py`
 
