@@ -40,7 +40,7 @@ The following scripts are provided already in full:
 
 You may need to learn how to process certain kinds of data.  For instance, how do you retrieve `stdin` standard input data from inside of a script?  You can look in `plot-forecast.py` to get an idea of how that should work.  You can retrieve data from a remote source using [`requests`](https://2.python-requests.org/en/master/) (several other libraries support this as well, but we think `requests` is the easiest one to use).  The `get` function returns an object with a `text` attribute containing the retrieved data in HTML format.
 
-To process data from standard input and output data to standard output, please check [this Software Carpentry lesson](https://swcarpentry.github.io/python-novice-inflammation/12-cmdline/index.html).
+To process data from standard input and output data to standard output, please check [this Software Carpentry lesson](https://swcarpentry.github.io/python-novice-inflammation/12-cmdline/index.html).  You may need to use `.strip()` to cut extra line breaks and spaces from the beginning and end of data.
 
 ### `grab-stations.py`
 
