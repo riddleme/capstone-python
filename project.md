@@ -2,7 +2,7 @@
 
 ## Overview
 
-This capstone project is built around using Python to collect data from a remote source, parse the data by passing it between transformative scripts, and finally plot the data.
+This capstone project is built around using Python to collect data from a remote source, process the data by passing it between transformative scripts, and finally plot the data.
 
 We will use current temperature data for the State of Illinois.
 
@@ -24,9 +24,7 @@ $ python interp-forecast.py --lat=40.1 --lon=88.2 < forecast.txt
 
 ## Development
 
-For the most part, you will have to read the description of what each file expects as input and write 
-
-We highly recommend using the test-driven development process for this.  You should first write tests for each step of your process (parsing input, carrying out the calculation, and producing output) so that you know the program step works as expected.  
+We highly recommend using the test-driven development process for this.  You should first write tests for each step of your process (processing input, carrying out the calculation, and producing output) so that you know the program step works as expected.  
 
 Done properly, this should mean that we can randomize the scripts between groups and still have everything work as expected.
 
