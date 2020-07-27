@@ -24,9 +24,7 @@ $ python interp-forecast.py --lat=40.1 --lon=88.2 < forecast.txt
 
 ## Development
 
-We highly recommend using the test-driven development process for this.  You should first write tests for each step of your process (processing input, carrying out the calculation, and producing output) so that you know the program step works as expected.  
-
-Done properly, this should mean that we can randomize the scripts between groups and still have everything work as expected.
+We highly recommend using the test-driven development process for this.  Should you choose to work this way, you should first write tests for each step of your process (processing input, carrying out the calculation, and producing output) so that you know the program step works as expected.  [Here is a Software Carpentry lesson on test-driven development](https://swcarpentry.github.io/python-novice-inflammation/10-defensive/index.html).  **Done properly, this should mean that we can randomize the scripts between groups and still have everything work as expected.**  If you prefer to dive write into writing the code, you can do so as well.
 
 You need to write the following scripts:
 
@@ -40,7 +38,7 @@ The following scripts are provided already in full:
 
 You may need to learn how to process certain kinds of data.  For instance, how do you retrieve `stdin` standard input data from inside of a script?  You can look in `plot-forecast.py` to get an idea of how that should work.  You can retrieve data from a remote source using [`requests`](https://2.python-requests.org/en/master/) (several other libraries support this as well, but we think `requests` is the easiest one to use).  The `get` function returns an object with a `text` attribute containing the retrieved data in HTML format.
 
-To process data from standard input and output data to standard output, please check [this Software Carpentry lesson](https://swcarpentry.github.io/python-novice-inflammation/12-cmdline/index.html).  You may need to use `.strip()` to cut extra line breaks and spaces from the beginning and end of data.
+To process data from standard input and output data to standard output, please check [this Software Carpentry lesson](https://swcarpentry.github.io/python-novice-inflammation/12-cmdline/index.html).  You may need to use `.strip()` to cut extra line breaks and spaces from the beginning and end of data.  Move carefully and `print` results often to figure out what your code sees and to help guide what you need to process next.
 
 ### `grab-stations.py`
 
