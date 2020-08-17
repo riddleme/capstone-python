@@ -81,9 +81,9 @@ with the current temperature added as a fourth column at `stdout` standard outpu
 
 ## Progress & Completion
 
-You should fork this project and work exclusively in the `python/` folder.  We expect you to compose four scripts:
+You should fork this project to work.  We expect you to compose four scripts:
 
 - `grab-stations.py` as described above.
 - `grab-forecast.py` as described above.
-- `test-grab-stations.py` with appropriate unit tests to make sure functions work as they should.
-- `test-grab-forecast.py` with appropriate unit tests to make sure functions work as they should.
+- `test-grab-stations.py` with appropriate unit tests to make sure functions work as they should (if you used test-driven development).
+- `test-grab-forecast.py` with appropriate unit tests to make sure functions work as they should (if you used test-driven development).
